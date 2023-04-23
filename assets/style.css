@@ -213,6 +213,8 @@ header {
 }
 #banner .arrow_left:hover {
   cursor: pointer;
+  transform: scale(1.01);
+  transition: 0.3s ease;
 }
 
 #banner .arrow_right {
@@ -221,6 +223,8 @@ header {
 }
 #banner .arrow_right:hover {
   cursor: pointer;
+  transform: scale(1.01);
+  transition: 0.3s ease;
 }
 
 /* Gestion des points du carrousel */
@@ -243,7 +247,7 @@ header {
 }
 /* Fin du code CSS pour le carousel */
 #banner p {
-	position: absolute;
+  position: absolute;
   font-family: "Roboto Slab", sans-serif;
   font-weight: 900;
   font-size: 50px;
